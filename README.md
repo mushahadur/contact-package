@@ -21,7 +21,7 @@ It is designed to be easy to install, configurable, and compatible with modern L
 - Configurable admin email and mail subject
 - Clean and minimal UI
 - Easy installation and setup
-- Supports **Laravel 9, 10, and 11**
+- Supports **Laravel 10, 11, and 12**
 
 ## 📦 Installation
 
