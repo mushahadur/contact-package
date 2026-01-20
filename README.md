@@ -32,7 +32,7 @@ composer require mushahedur/contact
 
 ```
 
-## ✨ Migration
+## 🏷️ Migration
 
 run the terminal 
 
@@ -56,12 +56,28 @@ http://loclhost/contact
 ```
 
 
+## ✨ .ENV file
+
+modify .env file for seting email cretential
+
+```bash
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=your_username
+MAIL_PASSWORD=your_password
+MAIL_ENCRYPTION=null
+
+```
+
+
 ## ✨ If You may modify your from email
 
 config/contact.php
 
 ```bash
 
-    'send_email_to' => 'mrk@gmail.com'
+    'send_email_to' => 'example@test.com'
 
 ```
